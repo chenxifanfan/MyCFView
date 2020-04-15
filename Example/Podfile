@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MyCFView_Example' do
+  pod 'MyCFView', :path => '../'
+
+  target 'MyCFView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
